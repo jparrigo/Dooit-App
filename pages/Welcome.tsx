@@ -18,7 +18,6 @@ export default function Welcome({ navigation } : NavigationType) {
     )
 }
 
-
 const styles = StyleSheet.create({
     container: {
       flex: 1,
