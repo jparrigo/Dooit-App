@@ -1,10 +1,6 @@
 import { StyleSheet, Text, View, Pressable, Image } from 'react-native'
-interface NavigationType {
-    navigation: {
-        navigate: Function
-    }
-}
-export default function Welcome({ navigation } : NavigationType) {
+
+export default function Welcome({ navigation } : any) {
     return (
         <View style={styles.container}>
             <Image source={require('../assets/logo.png')}/>
