@@ -1,9 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
-import Welcome from './pages/Welcome'
-import Activitys from './pages/Activitys'
-import CreateActivity from './pages/CreateActivity'
+import Welcome from './src/pages/Welcome'
+import Activitys from './src/pages/Activitys'
+import CreateActivity from './src/pages/CreateActivity'
 
 const Stack = createNativeStackNavigator();
 
